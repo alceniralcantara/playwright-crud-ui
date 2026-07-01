@@ -1,0 +1,13 @@
+{
+  "name": "playwright-crud-ui",
+  "version": "1.0.0",
+  "description": "Sample Playwright project demonstrating CRUD operations on a public to-do application. Tests written in TypeScript.",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "typescript": "^5.4.2"
+  }
+}
